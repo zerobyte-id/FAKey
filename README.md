@@ -15,8 +15,8 @@ python3 FAKey.py -t http://192.168.100.128
 ```
 ## Using docker
 ```
-docker build -t FAKey .
-docker run -it --rm FAKey -t http://192.168.100.128
+docker build -t fakey .
+docker run -it --rm fakey -t http://192.168.100.128
 ```
 
 ### Custom
