@@ -1,0 +1,12 @@
+{
+    "AWS_KEY": "(A3T[A-Z0-9]|AKIA|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{16}",
+    "GITHUB_AT": "(ghu|ghs)_[0-9a-zA-Z]{36}",
+    "GITHUB_OAT": "gho_[0-9a-zA-Z]{36}",
+    "GITHUB_PAT": "ghp_[0-9a-zA-Z]{36}",
+    "GITHUB_RT": "ghr_[0-9a-zA-Z]{36}",
+    "GITLAB_PAT": "glpat-[0-9a-zA-Z\/-\/_]{20}",
+    "SENDGRID_KEY": "(?i)(SG.[a-z0-9=_\/-\/.]{66})(?:['|\"|\n|\r|\/s|\/x60]|$)",
+    "SHOPIFY_ACC": "shpat_[a-fA-F0-9]{32}",
+    "STRIPE": "(?i)(sk|pk)_(test|live)_[0-9a-z]{10,32}",
+    "TWILIO_KEY": "(SK|AC)[0-9a-fA-F]{32}"
+}
